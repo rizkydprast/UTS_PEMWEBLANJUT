@@ -47,3 +47,4 @@ Travigui includes the following features:
 - `models`: Contains the models of the app such as `user`.
 - `providers`: Contains the providers of the app such as `auth` using `Riverpod` as a state management solution.
 - `view`: Contains all the screens and components of the app.
+# UTS_PEMWEBLANJUT
