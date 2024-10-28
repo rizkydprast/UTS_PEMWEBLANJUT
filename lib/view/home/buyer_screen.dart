@@ -25,7 +25,7 @@ class BuyerScreen extends HookConsumerWidget {
             children: [
               const Logo(),
               CustomButton(
-                text: 'Poster une Service',
+                text: 'Tambhkan Keterangan',
                 icon: Icons.add,
                 color: AppColor.secondary,
                 onPressed: () {},

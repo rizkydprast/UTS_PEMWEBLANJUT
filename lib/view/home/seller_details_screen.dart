@@ -226,7 +226,7 @@ class SellerDetailsScreen extends HookConsumerWidget {
                   ],
                 ),
                 CustomButton(
-                  text: 'Postuler',
+                  text: 'apply',
                   onPressed: () {
                     showModalBottomSheet(
                       shape: const RoundedRectangleBorder(

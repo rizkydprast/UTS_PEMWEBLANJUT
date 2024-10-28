@@ -32,7 +32,7 @@ class MessageCard extends StatelessWidget {
           ),
           const SizedBox(width: 10),
           const Text(
-            'Mokhtar Djelloul',
+            'Basuki',
             style: TextStyle(
               fontSize: 16,
               fontWeight: FontWeight.w500,
