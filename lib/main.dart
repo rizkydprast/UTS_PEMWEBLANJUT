@@ -18,13 +18,13 @@ Future<void> main() async {
       overrides: [
         sharedPreferencesProvider.overrideWithValue(prefs),
       ],
-      child: const IwdApp(),
+      child: const indeedApp(),
     ),
   );
 }
 
-class IwdApp extends ConsumerWidget {
-  const IwdApp({super.key});
+class indeedApp extends ConsumerWidget {
+  const indeedApp({super.key});
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {

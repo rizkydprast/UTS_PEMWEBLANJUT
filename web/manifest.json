@@ -1,6 +1,6 @@
 {
-    "name": "iwd",
-    "short_name": "iwd",
+    "name": "indeed",
+    "short_name": "indeed",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

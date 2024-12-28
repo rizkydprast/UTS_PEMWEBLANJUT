@@ -84,7 +84,7 @@ class _SignUpSecondScreenState extends ConsumerState<SignUpSecondScreen> {
                     ],
                   ),
                   controller: ccp,
-                  label: 'rekening',
+                  label: 'Alamat',
                   hint: '',
                   validator: AppMethod.generalValidator,
                 ),
