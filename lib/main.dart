@@ -18,20 +18,20 @@ Future<void> main() async {
       overrides: [
         sharedPreferencesProvider.overrideWithValue(prefs),
       ],
-      child: const indeedApp(),
+      child: const IwdApp(),
     ),
   );
 }
 
-class indeedApp extends ConsumerWidget {
-  const indeedApp({super.key});
+class IwdApp extends ConsumerWidget {
+  const IwdApp({super.key});
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final isFirstTime = ref.watch(onboardingProvider);
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Travigui',
+      title: 'Indeed',
       theme: ThemeData(
         fontFamily: 'sora',
         primarySwatch: Colors.blue,

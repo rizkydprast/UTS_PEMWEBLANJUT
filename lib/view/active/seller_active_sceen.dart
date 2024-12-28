@@ -14,7 +14,7 @@ class SellerActiveService extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Text(
-            'Cutting some Harm Trees from jardin and Cleaning',
+            'Menebang beberpa pohon berbahay dari jakarta dan membersihkannya',
             style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18),
           ),
           SizedBox(
@@ -33,7 +33,7 @@ class SellerActiveService extends StatelessWidget {
               SizedBox(
                 width: 20,
               ),
-              Text('Mohamed kadous')
+              Text('Basuki')
             ],
           ),
           SizedBox(
@@ -46,12 +46,12 @@ class SellerActiveService extends StatelessWidget {
               SizedBox(
                 width: 30,
               ),
-              Text('21-03-2023'),
+              Text('31-02-2024'),
               SizedBox(
                 width: 20,
               ),
               Text(
-                '19,000 DA',
+                'Rp. 5.000.000',
                 style: TextStyle(color: Color(0xff1B5BFF)),
               ),
             ],
@@ -61,7 +61,7 @@ class SellerActiveService extends StatelessWidget {
           ),
           CustomButton(
             onPressed: () {},
-            text: 'Set As Finished',
+            text: 'akhiri layanan',
             color: Color(0xff1B5BFF),
             isFullWidth: true,
           ),
@@ -70,7 +70,7 @@ class SellerActiveService extends StatelessWidget {
           ),
           CustomButton(
             onPressed: () {},
-            text: 'Discard the Service',
+            text: 'Buang layanan',
             isFullWidth: true,
             color: Color(0xffF2F5F6),
             textColor: Color(0xff495057),

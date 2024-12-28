@@ -72,7 +72,7 @@ class ProposalFormBottomSheet extends HookConsumerWidget {
                 const SizedBox(height: 15),
                 CustomTextFormField(
                   controller: credit,
-                  label: 'Crédit Pour Postuler',
+                  label: 'Terapkan',
                   hint: '5+',
                   keyboradType: TextInputType.number,
                   tooltip: 'Enter The Amount You Want To Be Paid',

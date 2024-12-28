@@ -77,7 +77,7 @@ class OnboardingScreen extends HookConsumerWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 const Text(
-                  'Publish Services',
+                  'Layanan Publish',
                   style: TextStyle(
                     fontSize: 20,
                     fontWeight: FontWeight.bold,
@@ -85,7 +85,7 @@ class OnboardingScreen extends HookConsumerWidget {
                 ),
                 const SizedBox(height: 10),
                 const Text(
-                  'Publish your services and get more customers',
+                  'publikasikan layanan Anda dan mendapatkan lebih banyak pelanggan',
                   style: TextStyle(
                     fontSize: 16,
                     color: Colors.grey,
